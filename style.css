@@ -1,0 +1,153 @@
+.navbar {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: plum;
+    padding: 8px 12px;
+}
+
+.nav-links a:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.name {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    align-self: center;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size: 25px;
+    margin-top: 10px;
+    color: lightgray;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.dream {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+.info {
+    background-color: plum;
+    font-weight: bold;
+}
+
+.sk {
+    background-color: plum;
+    font-weight: bold;
+}
+
+.Edu {
+    background-color: plum;
+    font-weight: bold;
+}
+
+.wards {
+    background-color: plum;
+    font-weight: bold;
+}
+
+.Hob {
+    background-color: plum;
+    font-weight: bold;
+}
+
+.tacts {
+    background-color: plum;
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .about {
+        padding: 60px 8%;
+        gap: 30px;
+    }
+
+    .about-img img {
+        width: 320px;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 6%;
+    }
+
+    .about-img img {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+
+    .about-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-text p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 40px 5%;
+    }
+
+    .about-img img {
+        width: 220px;
+        border-radius: 15px;
+    }
+
+    .about-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+}
